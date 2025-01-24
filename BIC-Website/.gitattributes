@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+[submodule "client"]
+    path = client
+    url = <repository-url-for-client>
