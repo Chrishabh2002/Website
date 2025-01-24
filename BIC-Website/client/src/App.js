@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
+import Chatbot from './pages/Chatbot'; 
 import { AuthProvider } from './context/AuthContext';  // Import AuthProvider
 import './styles/main.css';  // Ensure the CSS file exists
 
@@ -24,6 +25,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/SignUp" element={<SignUp />} />
+            <Route path="/chatbot" element={<Chatbot />} />
           </Routes>
         </main>
         <Footer />
